@@ -1,0 +1,33 @@
+/*Presentado por Juan Dnaiel Ramírez Mojica - juaramirezmo@unal.edu.co*/
+/*Ingeniería Industrial - UNiversidad Nacional de COlombia*/
+
+
+/*--------------------------------Estilos generales -----------------------------------------*/
+
+
+@charset "UTF-8";
+
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 120vh;
+    margin: 0;
+    text-align: center; /* Centra horizontalmente el texto */
+}
+
+h1 {
+    margin-bottom: 20px; /* Ajusta según sea necesario */
+}
+
+iframe {
+    align-self: center;
+    align-items: center;
+    width: 100%; /* Ajusta el ancho según tus necesidades */
+    height: 100vh; /* Ajusta la altura según tus necesidades */
+    border: 0;
+    margin: 0 auto; /* Centra horizontalmente el iframe */
+}
